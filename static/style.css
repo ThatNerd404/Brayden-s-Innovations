@@ -1,7 +1,11 @@
 * {
     margin: 0%
-    
+
 }
+@font-face {
+    font-family: 'Mario_World';
+    src: url('TypefaceMarioWorldPixelFilledRegular-rgVMx.ttf');
+}  
 html {
     background:url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
     background-size: cover;
@@ -19,9 +23,9 @@ body {
 header {
     height: 50px;
     width: 100%;
-    
+    font-family: 'Mario_World';
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(6, 204, 6);
 }
 
