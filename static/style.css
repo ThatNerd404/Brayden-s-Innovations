@@ -3,15 +3,10 @@
     
 }
 
-body{
-    background-image: url('/static/Free_Animated_Wallpaper.gif');
-    background-size: cover;
-    
-    
-    
-    height: 100vh;
-    padding:0;
-    margin:0;
+body {
+    background:url('Free_Animated_Wallpaper.gif') repeat-y 100% 100% fixed;
+    height:100%;
+    width:100%;
 }
 
 
