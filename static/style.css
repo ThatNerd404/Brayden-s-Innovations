@@ -2,11 +2,27 @@
     margin: 0%
     
 }
-
+html {
+    background:url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: none;
+}
 body {
-    background:url('Free_Animated_Wallpaper.gif') repeat-y 100% 100% fixed;
-    height:100%;
-    width:100%;
+    background:url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: none;
+}
+header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(206, 17, 17);
+    text-align: center;
+    font-size: large;
+    color: rgb(6, 204, 6);
 }
 
 
