@@ -17,21 +17,49 @@ body {
     background:url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    width: 100%;
+    width: 100%; 
     background-repeat: none;
     
 }
 header {
-    height: 50px;
-    width: 100%;
+    /* background-color: rgb(255, 208, 0); */
+    /* height: 150px; */
+    width: 100%; 
+    
+}
+
+.title {
+     background-color: yellow;
     font-family: 'Mario_World';
     text-align: center;
     font-size: 60px;
     color: #06cc06;
 }
 
+.main_body_container {
+    background-color: red; 
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+section {
+    height: 100%;
+    float: right;
+    width: 70%;
+    background-color: aqua; 
+    text-align: center;
+}
+aside {
+    border-color: #06cc06;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
 
-
+    /* margin: 0 auto; */
+    float: left;
+    width: 20%;
+   /* background-color: purple; */
+}
 /*:hover {
  only for links
  put after a link class to make a psuedo class which talks about the state of it
