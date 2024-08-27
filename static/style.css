@@ -12,7 +12,7 @@
 
 body {
    
-    background: url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
+    background: url('Free_Animated_Wallpaper.gif') no-repeat center center ;
     background-size: cover;
     background-attachment: scroll;
     height: 100%;
@@ -29,6 +29,15 @@ body {
         "sidebar main";
     gap: 10px; /* Small gap between grid areas */
     height: 100vh; /* Full viewport height */
+}
+
+/* Main content styling */
+.main-content {
+    grid-area: main;
+    background-color: red;
+    padding: 20px;
+    color: white;
+    margin: 5px;
 }
 
 /* Title styling */
@@ -60,14 +69,7 @@ body {
     height: 10%;
 }
 
-/* Main content styling */
-.main-content {
-    grid-area: main;
-    background-color: red;
-    padding: 20px;
-    color: white;
-    margin: 5px;
-}
+
 
 /*:hover {
  only for links
