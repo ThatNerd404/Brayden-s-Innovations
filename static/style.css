@@ -33,7 +33,7 @@ body {
 /* Main content styling */
 .main-content {
     grid-area: main;
-    background-color: red;
+    background-color: red; /* Color is just here so i can see what I'm coding*/
     padding: 20px;
     color: white;
     margin: 5px;
@@ -51,7 +51,7 @@ body {
 
 /* Sidebar styling */
 .sidebar {
-    display: flex;  /* Gonna add this later when I know about flex box more. I know the sidebar is really gonna just be one column*/
+    display: flex;  
     flex-direction: column;
     grid-area: sidebar;
     background-color: lightblue;
@@ -79,10 +79,7 @@ body {
         font-size: 3vh; /* Adjust font size for mobile */
     }
 
-    .main-content {
-        
-        margin: 0; /* Remove margins to fit the screen better */
-    }
+    
 
     body {
         background-size: cover; /* Ensure the background scales */
