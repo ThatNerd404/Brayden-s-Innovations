@@ -11,8 +11,7 @@
 } 
 
 body {
-   
-    background: url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
+    background: url('Free_Animated_Wallpaper.gif') repeat center center fixed;
     background-size: cover;
     background-attachment: scroll;
     height: 100%;
