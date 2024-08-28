@@ -69,13 +69,37 @@ body {
 }
 
 @media (max-width: 768px) {
+    .main_body_container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "title"
+            "sidebar"
+            "main";
+        height: auto; /* Let content determine the height */
+    }
+
     .title {
-        font-size: 2.5vh;
+        font-size: 5vh; /* Adjust font size for mobile */
+        padding: 10px;  /* Add some padding for spacing */
     }
+
     .sidebar {
-        background-color: black;
+        background-color: black; /* As you wanted */
+        width: 100%; /* Full width on mobile */
+        padding: 15px; /* Adjust padding */
     }
-    
+
+    .main-content {
+        width: 100%; /* Full width on mobile */
+        padding: 15px; /* Adjust padding */
+        margin: 0; /* Remove margins to fit the screen better */
+    }
+
+    body {
+        background-size: cover; /* Ensure the background scales */
+        background-attachment: fixed; /* Keep it fixed even on mobile */
+    }
 }
 
 /*:hover {
