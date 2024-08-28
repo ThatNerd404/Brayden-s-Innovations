@@ -28,7 +28,7 @@ body {
         "title title"
         "sidebar main";
     gap: 10px; /* Small gap between grid areas */
-    height: 100vh; /* Full viewport height */
+    height: 100%; /* Full viewport height */
 }
 
 /* Main content styling */
