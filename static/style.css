@@ -63,6 +63,7 @@ body {
 }
 
 .sidebar p {
+    flex-shrink: 1;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#06cc06;
     width: 100%;
