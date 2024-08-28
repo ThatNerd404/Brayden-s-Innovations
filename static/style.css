@@ -59,16 +59,18 @@ body {
     border: 2px solid #06cc06;
     border-radius: 10px;
     margin: 5px;
+    width: 100%;
+    height: 10%;
 }
 
 .sidebar p {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#06cc06;
-    width: 100%;
-    height: 10%;
+    
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 768px) { /* fix for small device */
     .main_body_container {
         height: auto; /* Let content determine the height */
     }
