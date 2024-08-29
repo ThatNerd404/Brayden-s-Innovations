@@ -53,6 +53,8 @@ body {
 .sidebar {
     display: flex;  
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     grid-area: sidebar;
     background-color: lightblue;
     padding: 20px;
@@ -62,7 +64,7 @@ body {
     
 }
 
-.sidebar p {
+.sidebar_items {
     flex-shrink: 1;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#06cc06;
