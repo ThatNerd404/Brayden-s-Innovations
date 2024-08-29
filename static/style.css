@@ -43,7 +43,7 @@ body {
 .title {
     font-family: 'Mario_World', sans-serif;
     grid-area: title;
-    background-color: yellow;
+    /* background-color: yellow; */
     text-align: center;
     font-size: 7.85vh;
     color: #06cc06;
@@ -53,8 +53,6 @@ body {
 .sidebar {
     display: flex;  
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     grid-area: sidebar;
     background-color: lightblue;
     padding: 20px;
@@ -66,6 +64,7 @@ body {
 
 .sidebar_items {
     flex-shrink: 1;
+    text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#06cc06;
     width: 100%;
