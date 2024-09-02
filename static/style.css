@@ -10,10 +10,10 @@
     src: url('TypefaceMarioWorldPixelFilledRegular-rgVMx.ttf');
 } 
 
-body {
-    background: url('Free_Animated_Wallpaper.gif') repeat center center fixed;
+body,html {
+    background: url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 100%;
     width: 100%; 
 }
@@ -33,17 +33,21 @@ body {
 /* Main content styling */
 .main-content {
     grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
     /* background-color: black; /* Color is just here so i can see what I'm coding*/
     padding: 20px;
     color: #06cc06;
     margin: 5px;
+    
 }
-.main-content h1 {
+.So_No_Heading {
     font-family: 'Mario_World', sans-serif;
     font-size: 5vh;
     text-align: center;
 }
-.main-content p {
+.She_Para_On_My_Graph {
     font-size: 2vh;
 }
 
