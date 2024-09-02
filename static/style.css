@@ -21,7 +21,7 @@ body,html {
 /* The grid container */
 .main_body_container {
     display: grid;
-    grid-template-columns: 20% 79.3%; /* Sidebar takes 20%, main content 70% */
+    grid-template-columns: 20% 80%; /* Sidebar takes 20%, main content 70% */
     grid-template-rows: auto 1fr; /* Title takes automatic height, main content takes the rest */
     grid-template-areas: 
         "title title"
