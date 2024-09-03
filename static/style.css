@@ -19,7 +19,7 @@ body,html {
 }
 
 /* The grid container */
-.main_body_container {
+.Home_Page {
     display: grid;
     grid-template-columns: 20% 80%; /* Sidebar takes 20%, main content 70% */
     grid-template-rows: auto 1fr; /* Title takes automatic height, main content takes the rest */
@@ -31,25 +31,44 @@ body,html {
 }
 
 /* Main content styling */
-.main-content {
+.main_content {
     grid-area: main;
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: column;
     /* background-color: black; /* Color is just here so i can see what I'm coding*/
     padding: 20px;
     color: #06cc06;
     margin: 5px;
-    
 }
-.So_No_Heading {
-    font-family: 'Mario_World', sans-serif;
-    font-size: 5vh;
-    text-align: center;
+.main_content_items {
+    display: grid;
+    grid-template-columns: auto 1fr; /* First column for the image, second for the text */
+    grid-template-rows: auto auto; /* Rows for title and paragraph */
+    grid-gap: 20px; /* Space between columns and rows */
+    align-items: start;
 }
-.She_Para_On_My_Graph {
+.main_content_items p {
+    font-size: 2vh;
+    grid-column: 2; /* Paragraph in the second column */
+    grid-row: 2; /* Paragraph in the second row */
     font-size: 2vh;
 }
+
+.main_content_items h1 {
+    grid-column: 2; /* Title in the second column */
+    grid-row: 1; /* Title in the first row */
+    font-family: 'Mario_World', sans-serif;
+    font-size: 5vh;
+    margin-bottom: 10px; /* Space between title and paragraph */
+    text-align: center;
+}
+.Dope_Image {
+    grid-column: 1; /* Image in the first column */
+    grid-row: 1 / span 2; /* Image spans both rows */
+    max-width: 100%;
+    height: auto; /* Responsive image */
+}
+
 
 /* Title styling */
 .title {
