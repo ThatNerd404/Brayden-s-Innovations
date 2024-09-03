@@ -77,16 +77,20 @@ body,html {
 }
 
 .sidebar_items {
-    background-color: blue;
+    font-size: 3vh;
     flex-shrink: 1;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#06cc06;
     width: 100%;
     height: 10%;
-    
+    text-decoration: none;
 }
 
+.sidebar_items:hover {
+    color: aqua;
+    font-size: 4vh;
+}
 
 @media (max-width: 768px) { /* fix for small device */
     
