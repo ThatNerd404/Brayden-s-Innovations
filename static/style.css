@@ -62,6 +62,14 @@ body,html {
     margin-bottom: 10px; /* Space between title and paragraph */
     text-align: center;
 }
+#Easter_Egg_Title::before {
+    content: "What Should I expect?";
+}
+#Easter_Egg_Title:hover::before {
+    content: "The Unexpected!";
+    color: red;
+}
+
 .Dope_Image {
     grid-column: 1; /* Image in the first column */
     grid-row: 1 / span 2; /* Image spans both rows */
