@@ -10,6 +10,11 @@
     src: url('TypefaceMarioWorldPixelFilledRegular-rgVMx.ttf');
 } 
 
+@font-face {
+    font-family: 'Ethno_Centric';
+    src: url('ethnocentric rg.otf');
+}
+
 body,html {
     background: url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
     background-size: cover;
@@ -46,22 +51,39 @@ body,html {
     grid-template-rows: auto auto; /* Rows for title and paragraph */
     grid-gap: 20px; /* Space between columns and rows */
     align-items: start;
+    
+    border-style: solid; /* Cool Border */
+    border-width: 5px;
+    border-color: #06cc06;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    
+    overflow:hidden; /* ensure image fits in box */
 }
 .main_content_items p {
+    font-family:'Ethno_Centric',sans-serif; 
     font-size: 2vh;
     grid-column: 2; /* Paragraph in the second column */
     grid-row: 2; /* Paragraph in the second row */
-    font-size: 2vh;
 }
 
 .main_content_items h1 {
     grid-column: 2; /* Title in the second column */
     grid-row: 1; /* Title in the first row */
+    
     font-family: 'Mario_World', sans-serif;
     font-size: 5vh;
     margin-bottom: 10px; /* Space between title and paragraph */
     text-align: center;
 }
+.main_content_items img {
+    grid-column: 1; /* Image in the first column */
+    grid-row: 1 / span 2; /* Image spans both rows */
+    width: 45vh;
+    height: auto; /* Responsive image */
+    object-fit: cover; /* ensure image fits in box */
+}
+
 #Easter_Egg_Title::before {
     content: "What Should I expect?";
 }
@@ -70,12 +92,7 @@ body,html {
     color: red;
 }
 
-.Dope_Image {
-    grid-column: 1; /* Image in the first column */
-    grid-row: 1 / span 2; /* Image spans both rows */
-    max-width: 100%;
-    height: auto; /* Responsive image */
-}
+
 
 
 /* Title styling */
@@ -104,10 +121,10 @@ body,html {
 }
 
 .sidebar_items {
-    font-size: 3vh;
+    font-size: 2.5vh;
     flex-shrink: 1;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Ethno_Centric',sans-serif ;
     color:#06cc06;
     width: 100%;
     height: 10%;
@@ -116,7 +133,7 @@ body,html {
 
 .sidebar_items a:hover {
     color: aqua;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 @media (max-width: 768px) { /* fix for small device */
