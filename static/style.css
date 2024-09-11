@@ -80,7 +80,7 @@ body,html {
     grid-column: 1; /* Image in the first column */
     grid-row: 1 / span 2; /* Image spans both rows */
     width: 45vh;
-    height: 45vh; /* Responsive image */
+    height: auto; /* Responsive image */
     object-fit: cover; /* ensure image fits in box */
 }
 
