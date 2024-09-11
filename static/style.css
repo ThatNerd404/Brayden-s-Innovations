@@ -50,7 +50,7 @@ body,html {
     grid-template-columns: auto 1fr; /* First column for the image, second for the text */
     grid-template-rows: auto auto; /* Rows for title and paragraph */
     grid-gap: 20px; /* Space between columns and rows */
-    align-items: start;
+    align-items: center;
     
     border-style: solid; /* Cool Border */
     border-width: 5px;
@@ -80,8 +80,9 @@ body,html {
     grid-column: 1; /* Image in the first column */
     grid-row: 1 / span 2; /* Image spans both rows */
     width: 45vh;
-    height: auto; /* Responsive image */
+    height: 45vh; /* Responsive image */
     object-fit: cover; /* ensure image fits in box */
+    
 }
 
 #Easter_Egg_Title::before {
