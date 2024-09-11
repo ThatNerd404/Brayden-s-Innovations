@@ -84,21 +84,6 @@ body,html {
     object-fit: cover; /* ensure image fits in box */
 }
 
-.main_content_items .Slideshow {
-    grid-column: 1; /* Image in the first column */
-    grid-row: 1 / span 2; /* Image spans both rows */
-    width: 45vh;
-    top: 50%;
-    left: 50%;
-    height: auto; /* Responsive image */
-    overflow: hidden;
-}
-
-.main_content_items .Slideshow .img_container {
-    width: 100%;
-    display:flex;
-    animation: slide 16s infinite;
-}
 #Easter_Egg_Title::before {
     content: "What Should I expect?";
 }
@@ -166,33 +151,6 @@ body,html {
     }
 }
 
-@keyframes slide{
-    0%{
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(0);
-    }
-    30%{
-        transform: translateX(-100);
-    }
-    50%{
-        transform: translateX(-100);
-    }
-    55%{
-        transform: translateX(-200);
-    }
-    75%{
-        transform: translateX(-200);
-    }
-    80%{
-        transform: translateX(-300);
-    }
-    100%{
-        transform: translateX(-300);
-    }
-    
-}
 /*:hover {
  only for links
  put after a link class to make a psuedo class which talks about the state of it
