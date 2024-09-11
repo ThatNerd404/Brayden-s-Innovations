@@ -50,8 +50,7 @@ body,html {
     grid-template-columns: auto 1fr; /* First column for the image, second for the text */
     grid-template-rows: auto auto; /* Rows for title and paragraph */
     grid-gap: 20px; /* Space between columns and rows */
-    align-items: center;
-    
+
     border-style: solid; /* Cool Border */
     border-width: 5px;
     border-color: #06cc06;
@@ -59,6 +58,7 @@ body,html {
     margin-bottom: 5px;
     
     overflow:hidden; /* ensure image fits in box */
+    align-items: center;
 }
 .main_content_items p {
     font-family:'Ethno_Centric',sans-serif; 
@@ -82,7 +82,6 @@ body,html {
     width: 45vh;
     height: 45vh; /* Responsive image */
     object-fit: cover; /* ensure image fits in box */
-    
 }
 
 #Easter_Egg_Title::before {
