@@ -26,7 +26,7 @@ body,html {
 /* The grid container */
 .Home_Page {
     display: grid;
-    grid-template-columns: 20% 80%; /* Sidebar takes 20%, main content 70% */
+    grid-template-columns: 20% 80%; /* Sidebar takes 20%, main content 80% */
     grid-template-rows: auto 1fr; /* Title takes automatic height, main content takes the rest */
     grid-template-areas: 
         "title title"
@@ -80,7 +80,7 @@ body,html {
     grid-column: 1; /* Image in the first column */
     grid-row: 1 / span 2; /* Image spans both rows */
     width: 45vh;
-    height: auto; /* Responsive image */
+    height: 45vh; /* Responsive image */
     object-fit: cover; /* ensure image fits in box */
 }
 
