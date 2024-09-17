@@ -30,7 +30,7 @@ body,html {
     font-size: 7.85vh;
     color: #06cc06;
 }
-.Home_Page {
+.Gallery_Page {
     display: grid;
     grid-template-columns: 20% 80%; /* Sidebar takes 20%, main content 70% */
     grid-template-rows: auto 1fr; /* Title takes automatic height, main content takes the rest */
@@ -49,6 +49,11 @@ body,html {
     padding: 20px;
     color: #06cc06;
     margin: 5px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-color: #06cc06;
+    border-style:ridge;
+    border-width: 20px;
 }
 /* Sidebar styling */
 .sidebar {
