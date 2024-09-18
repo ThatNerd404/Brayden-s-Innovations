@@ -57,13 +57,16 @@ body,html {
 
 .Gallery_Container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     gap:10px;
 }
+
 .Gallery_Container img {
-    width: 33%;
-    height: 33%;
+    /* border: 20px solid transparent;
+    border-image: url("Fancy_Frame.png") 30 round; */
+    width: 100%;
+    height: 100%;
 }
 
 /* Sidebar styling */
