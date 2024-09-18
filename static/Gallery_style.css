@@ -44,7 +44,6 @@ body,html {
 /* Main content styling */
 .main_content {
     grid-area: main;
-    display: grid;
     /* background-color: black; /* Color is just here so i can see what I'm coding*/
     padding: 20px;
     color: #06cc06;
@@ -55,6 +54,18 @@ body,html {
     border-style:ridge;
     border-width: 20px;
 }
+
+.Gallery_Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:10px;
+}
+.Gallery_Container img {
+    width: 33%;
+    height: 33%;
+}
+
 /* Sidebar styling */
 .sidebar {
     display: flex;  
