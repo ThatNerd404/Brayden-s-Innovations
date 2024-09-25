@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mario_World';
+    src: url('TypefaceMarioWorldPixelFilledRegular-rgVMx.ttf');
+} 
+
+@font-face {
+    font-family: 'Ethno_Centric';
+    src: url('ethnocentric rg.otf');
+}
+
+body,html {
+    background: url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%; 
+}
+
+.Small_Artist_Spotlight_Page {
+    display: grid;
+    grid-template-columns: 20% 80%; /* Sidebar takes 20%, main content 80% */
+    grid-template-rows: auto 1fr; /* Title takes automatic height, main content takes the rest */
+    grid-template-areas: 
+        "title title"
+        "sidebar main";
+    gap: 10px; /* Small gap between grid areas */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Main content styling */
+.main_content {
+    grid-area: main;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #06cc06;
+    margin-right: 10px;
+}
+
+.main_content_items {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(1,1fr);
+    overflow-y: auto;
+    max-height:600px
+}
+
+#Masayoshi_Takanaka_Page {
+    
+    background-color: aqua;
+    height: 600px;
+    width: 100%;
+}
+/* Sidebar styling */
+.sidebar {
+    display: flex;  
+    flex-direction: column;
+    justify-content: flex-start;
+    column-gap: 5px;
+    grid-area: sidebar;
+    background-color: black;
+    padding: 20px;
+    border: 2px solid #06cc06;
+    border-radius: 10px;
+    margin: 5px;
+    
+}
+
+.sidebar_items {
+    margin-top: auto;
+    font-size: 2.5vh;
+    flex-shrink: 1;
+    text-align: center;
+    font-family:'Ethno_Centric',sans-serif ;
+    color:#06cc06;
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+}
+
+.sidebar_items .funky_blinky {
+    width: 200px;
+    height: 26.67px;
+}
+.sidebar_items a:hover {
+    color: aqua;
+    font-size: 3vh;
+}
+/* Title styling */
+.title {
+    font-family: 'Mario_World', sans-serif;
+    grid-area: title;
+    /* background-color: yellow; */
+    text-align: center;
+    font-size: 7.85vh;
+    color: #06cc06;
+}
