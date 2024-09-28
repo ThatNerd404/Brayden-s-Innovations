@@ -51,11 +51,25 @@ body,html {
     max-height:600px
 }
 
-#Masayoshi_Takanaka_Page {
-    
-    background-color: aqua;
+.Shrine_Box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #06cc06;
     height: 600px;
     width: 100%;
+}
+
+.Shrine_Box p {
+    text-align: center;
+}
+.Shrine_Box img {
+    width: 50vh;
+    height:auto;
+}
+
+#Masayoshi_Takanaka_Page {
+    background-color: aqua;
 }
 /* Sidebar styling */
 .sidebar {
