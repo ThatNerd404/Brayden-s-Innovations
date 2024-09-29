@@ -54,14 +54,10 @@ body,html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #06cc06;
     height: 600px;
     width: 100%;
 }
 
-.Shrine_Box p {
-   font-size: 20px;
-}
 .Shrine_Box img {
     width: 50vh;
     height:50vh;
@@ -82,6 +78,8 @@ body,html {
 
 #Masayoshi_Takanaka_Page {
     background-color: rgb(0, 81, 255);
+    font-size: 20px;
+    color: #06cc06;
 }
 /* Sidebar styling */
 .sidebar {
