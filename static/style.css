@@ -21,8 +21,11 @@ body,html {
     background-attachment: fixed;
     height: 100%;
     width: 100%; 
+    cursor: url('cur21.gif'), auto;
 }
-
+a {
+    cursor: url("cur21.gif"), pointer;
+}
 /* The grid container */
 .Home_Page {
     display: grid;
