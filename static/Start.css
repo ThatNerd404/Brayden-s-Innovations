@@ -2,10 +2,6 @@ html,body {
     background-color: black;
     margin: 0;
     height: 100%;
-    cursor: url('cur21.gif'), auto;
-}
-a {
-    cursor: url("cur21.gif"), pointer;
 }
 
 .image_container {
