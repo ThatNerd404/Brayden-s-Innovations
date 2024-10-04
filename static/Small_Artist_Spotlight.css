@@ -51,16 +51,17 @@ a {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     overflow-y: auto;
-    max-height:600px
+    max-height:610px;
+    
 }
 
 .Shrine_Box {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 2fr 1fr;
     grid-template-areas: 
-    "Image Bullet_Points"
-    "Description Description";
+    "Image Spotify Bullet_Points"
+    "Description Description Description";
     align-items: center;
     justify-items: center;
     height: 600px;
@@ -78,6 +79,10 @@ a {
 }
 .Shrine_Box .Main_Desc {
     grid-area: Description;
+    text-align: center;
+}
+.Shrine_Box .Spotify_Widget {
+    grid-area: Spotify;
 }
 .Shrine_Slideshow_Container {
     grid-area: Image;
