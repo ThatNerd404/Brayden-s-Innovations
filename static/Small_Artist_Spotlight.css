@@ -57,7 +57,7 @@ a {
 .Shrine_Box {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 2fr 1fr;
     grid-template-areas: 
     "Image Bullet_Points"
     "Description Description";
