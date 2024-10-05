@@ -13,6 +13,10 @@
     font-family: 'Helvetica';
     src: url('Helvetica-BoldOblique.ttf');
 }
+@font-face {
+    font-family: 'Ethno_Centric';
+    src: url('ethnocentric rg.otf');
+}
 
 body,html {
     background: url('Free_Animated_Wallpaper.gif') no-repeat center center fixed;
