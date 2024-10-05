@@ -10,8 +10,8 @@
 } 
 
 @font-face {
-    font-family: 'Ethno_Centric';
-    src: url('ethnocentric rg.otf');
+    font-family: 'Helvetica';
+    src: url('Helvetica-BoldOblique.ttf');
 }
 
 body,html {
@@ -59,13 +59,14 @@ a {
 .Shrine_Box {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 2fr 0.5fr 0.5fr;
     grid-template-areas: 
     "Image Spotify Bullet_Points"
+    "Shrine_Title Shrine_Title Shrine_Title"
     "Description Description Description";
     align-items: center;
     justify-items: center;
-    height: 600px;
+    height: 87vh;
     width: 100%;
 }
 
@@ -76,7 +77,7 @@ a {
 .Shrine_Box .Ratings {
     grid-area: Bullet_Points;
     font-size: 5vh;
-    background-color: #cc0606;
+    /* background-color: #cc0606; */
 }
 .Shrine_Box .Main_Desc {
     grid-area: Description;
@@ -99,9 +100,15 @@ a {
     animation: slide 15s infinite;
 
 }
-
+.Shrine_Box .Shrine_Title {
+    grid-template-areas: Shrine_Title;
+    font-size:5vh;
+    font-family: 'Helvetica';
+}
 #Masayoshi_Takanaka_Page {
-    background-color: rgb(0, 81, 255);
+    background: url('Masayoshi_Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-position: fixed;
     font-size: 20px;
     color: #06cc06;
 }
