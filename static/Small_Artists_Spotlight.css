@@ -114,7 +114,9 @@ a {
     background-size: cover;
     background-position: fixed;
     font-size: 20px;
-    color: #F3CC91;
+    /* color: #FEBE00; */
+    color:#FEC20C;
+    font-family: 'Helvetica';
 }
 
 /* Sidebar styling */
