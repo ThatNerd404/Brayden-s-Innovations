@@ -110,12 +110,13 @@ a {
     font-family: 'Helvetica';
 }
 #Masayoshi_Takanaka_Page {
-    background: url('Masayoshi_Background.jpg') no-repeat center center fixed;
+    background: url('Masayoshi_Background.jpg') no-repeat center center ;
     background-size: cover;
     background-position: fixed;
     font-size: 20px;
-    color: #06cc06;
+    color: #F3CC91;
 }
+
 /* Sidebar styling */
 .sidebar {
     display: flex;  
