@@ -57,20 +57,19 @@ a {
     grid-template-columns: repeat(1,1fr);
     overflow-y: auto;
     max-height:610px;
-    
 }
 
 .Shrine_Box {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 2fr 0.5fr 0.5fr;
+    grid-template-rows: 2.1fr 0.3fr 0.3fr;
     grid-template-areas: 
     "Image Spotify Bullet_Points"
     "Shrine_Title Shrine_Title Shrine_Title"
     "Description Description Description";
     align-items: center;
     justify-items: center;
-    height: 87vh;
+    height: 83vh;
     width: 100%;
 }
 
@@ -109,6 +108,7 @@ a {
     font-size:5vh;
     font-family: 'Helvetica';
 }
+
 #Masayoshi_Takanaka_Page {
     background: url('Masayoshi_Background.jpg') no-repeat center center ;
     background-size: cover;
@@ -116,6 +116,16 @@ a {
     font-size: 20px;
     /* color: #FEBE00; */
     color:#FEC20C;
+    font-family: 'Helvetica';
+}
+
+#Misc_Page {
+    background: url('Misc_Background.jpg') no-repeat center center ;
+    background-size: cover;
+    background-position: fixed;
+    font-size: 20px;
+    /* color: #FEBE00; */
+    color: #39FF14;
     font-family: 'Helvetica';
 }
 
