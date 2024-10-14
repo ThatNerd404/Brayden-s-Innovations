@@ -130,6 +130,15 @@ a {
     font-family: 'Helvetica';
 }
 
+#INOHA_Page {
+    background: url('INOHA_BG.jpg') no-repeat center center ;
+    background-size: cover;
+    background-position: fixed;
+    font-size: 20px;
+    /* color: #FEBE00; */
+    color:#FE8714;
+    font-family: 'Helvetica';
+}
 /* Sidebar styling */
 .sidebar {
     display: flex;  
