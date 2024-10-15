@@ -133,6 +133,7 @@ a {
 #INOHA_Page {
     background: url('INOHA_BG.jpg') no-repeat center center ;
     background-size: cover;
+    grid-template-rows: 2.1fr 0.5fr 0.5fr;
     background-position: fixed;
     font-size: 20px;
     /* color: #FEBE00; */
