@@ -25,10 +25,10 @@ body,html {
     background-attachment: fixed;
     height: 100%;
     width: 100%; 
-    cursor: url('cyber_cursor.cur'), auto;
+    cursor: url('FabConvert.com_cyber_cursor.gif'), auto;
 }
 a {
-    cursor: url("cyber_cursor.cur"), pointer;
+    cursor: url("FabConvert.com_cyber_cursor.gif"), pointer;
 }
 /* The grid container */
 .About_Me_Page {
