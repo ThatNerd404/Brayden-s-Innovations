@@ -51,7 +51,7 @@ a {
     grid-template-columns: auto 1fr; /* First column for the image, second for the text */
     grid-template-rows: auto auto; /* Rows for title and paragraph */
     grid-gap: 20px; /* Space between columns and rows */
-
+    
     border-style: solid; /* Cool Border */
     border-width: 5px;
     border-color: #06cc06;
@@ -78,8 +78,8 @@ a {
 }
 .main_content_items img {
     grid-column: 1; /* Image in the first column */
-    grid-row: 1 / span 2; /* Image spans both rows */
-    width: 45vh;
+    grid-row: 1 / span 2 ; /* Image spans both rows */
+    width: 60vh;
     height: 45vh; /* Responsive image */
     object-fit: cover; /* ensure image fits in box */
 }
