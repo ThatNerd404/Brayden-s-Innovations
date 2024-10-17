@@ -25,10 +25,10 @@ body,html {
     background-attachment: fixed;
     height: 100%;
     width: 100%; 
-    cursor: url('cur21.gif'), auto;
+    cursor: url('cyber_cursor.cur'), auto;
 }
 a {
-    cursor: url("cur21.gif"), pointer;
+    cursor: url("cyber_cursor.cur"), pointer;
 }
 /* The grid container */
 .About_Me_Page {
