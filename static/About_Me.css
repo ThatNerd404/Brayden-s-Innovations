@@ -69,15 +69,65 @@ a {
 /* Main content styling */
 .main_content {
     grid-area: main;
-    display: flex;
-    flex-direction: column;
-    /* background-color: black; /* Color is just here so i can see what I'm coding*/
+    /*background-color: #FAE401; /* Color is just here so i can see what I'm coding*/
     padding: 20px;
-    color: #06cc06;
-    margin: 5px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    
 }
 
+.main_content_items {
+    display: grid;
+    grid-template-columns: auto 1fr; /* First column for the image, second for the text */
+    grid-template-rows: auto auto; /* Rows for title and paragraph */
+    grid-gap:20px;
+    justify-content: center;
+    align-items: center;
+}
 
+.main_content_items img {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    height: auto;
+    width: 400px;
+}
+
+.main_content_items .Main_Desc {
+    grid-column: 2;
+    grid-row: 2;
+    color: black;
+    background-color: blue;
+    min-height: 450px;
+}
+
+.main_content_items .MCI_Title {
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 50px;
+    max-height: 100px;
+    color: black;
+    text-align: center;
+    font-family:'CyberFont',sans-serif ;
+    font-size: 5vh;
+    color:#FAE401;
+    text-shadow: 
+    1px 1px 0 #00ccff, /* Aqua shadow */
+    -1px -1px 0 #00ccff, /* Aqua shadow on the opposite side */
+    -1px 1px 0 #00ccff, /* Aqua on left */
+    1px -1px 0 #00ccff; /* Aqua on right */
+    width: 100%;
+    height: 10%;
+    text-shadow: 
+    0 0 10px #00FFFF,   /* Close cyan glow */
+    0 0 20px #00FFFF,   /* Medium cyan glow */
+    0 0 30px #00FFFF,   /* Larger cyan glow */
+    0 0 40px #00FFFF,   /* Extended cyan glow */
+    0 0 60px #00FFFF,   /* Larger glow */
+    0 0 100px #00FFFF,  /* Strong glow */
+    0 0 150px #FF00FF,  /* Outer magenta glow for contrast */
+    0 0 200px #FF00FF;  /* Even larger magenta glow */
+    animation: flicker 1.5s infinite alternate;
+}
 /* Sidebar styling */
 .sidebar {
     display: flex;  
