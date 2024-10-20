@@ -95,8 +95,8 @@ a {
 .main_content_items .Main_Desc {
     grid-column: 2;
     grid-row: 2;
-    color: black;
-    background-color: blue;
+    color: #FAE401;
+    font-size: 2vh;
     min-height: 450px;
 }
 
