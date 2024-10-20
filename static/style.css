@@ -63,7 +63,7 @@ a {
 }
 .main_content_items p {
     font-family:'Ethno_Centric',sans-serif; 
-    font-size: 2.5vh;
+    font-size: 4vh;
     grid-column: 2; /* Paragraph in the second column */
     grid-row: 2; /* Paragraph in the second row */
 }

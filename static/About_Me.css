@@ -96,8 +96,24 @@ a {
     grid-column: 2;
     grid-row: 2;
     color: #FAE401;
-    font-size: 2vh;
+    font-size: 4vh;
     min-height: 450px;
+    font-family:'CyberFont',sans-serif ;
+    text-shadow: 
+    1px 1px 0 #00ccff, /* Aqua shadow */
+    -1px -1px 0 #00ccff, /* Aqua shadow on the opposite side */
+    -1px 1px 0 #00ccff, /* Aqua on left */
+    1px -1px 0 #00ccff; /* Aqua on right */
+    text-shadow: 
+    0 0 10px #00FFFF,   /* Close cyan glow */
+    0 0 20px #00FFFF,   /* Larger cyan glow */
+    0 0 30px #00FFFF,   /* Larger cyan glow */
+    0 0 40px #00FFFF,   /* Larger cyan glow */
+    0 0 60px #00FFFF,   /* Larger glow */
+    0 0 100px #00FFFF,  /* Strong glow */
+    0 0 150px #FF00FF,  /* Outer magenta glow for contrast */
+    0 0 200px #FF00FF;  /* Even larger magenta glow */
+    animation: flicker 1.5s infinite alternate;
 }
 
 .main_content_items .MCI_Title {
@@ -105,7 +121,6 @@ a {
     grid-row: 1;
     min-height: 50px;
     max-height: 100px;
-    color: black;
     text-align: center;
     font-family:'CyberFont',sans-serif ;
     font-size: 5vh;
