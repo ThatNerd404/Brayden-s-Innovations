@@ -60,8 +60,17 @@ a {
     margin-right: 20px;
     border-radius: 10px;
     border-color: gold;
-    border-style:ridge;
+    border-style:solid;
     border-width: 20px;
+    box-shadow: 
+    5px 5px 0 #ffae00, /* Bronze shadow */
+    -5px -5px 0 #ffae00, /* Bronze shadow on the opposite side */
+    -5px 5px 0 #ffae00, /* Bronze on left */
+    5px -5px 0 #ffae00, /* Bronze on right */
+    5px 5px 0 #ffae00 inset, /* Bronze shadow */
+    -5px -5px 0 #ffae00 inset, /* Bronze shadow on the opposite side */
+    -5px 5px 0 #ffae00 inset, /* Bronze on left */
+    5px -5px 0 #ffae00 inset; /* Bronze on right */
 }
 
 .Gallery_Container {
