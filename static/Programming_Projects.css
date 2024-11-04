@@ -15,10 +15,10 @@ body,html {
     background-attachment: fixed;
     height: 100%;
     width: 100%; 
-    cursor: url('Vaporwave_Cursor.cur'), auto;
+    cursor: url('ImageToStl.com_vaporwave_cursor.gif'), auto;
 }
 a {
-    cursor: url("Vaporwave_Cursor.cur"), pointer;
+    cursor: url("ImageToStl.com_vaporwave_cursor.gif"), pointer;
 }
 
 /* Title styling */
