@@ -179,9 +179,11 @@ a {
     width: 200px;
     height: 26.67px;
 }
+
 .sidebar_items a:hover {
     font-size: 4.5vh;
 }
+
 /* Title styling */
 .title {
     font-family: 'Frutiger_Aero', sans-serif;

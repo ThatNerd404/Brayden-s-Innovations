@@ -30,8 +30,8 @@ a {
     font-size: 12vh;
     color: #62cece;
     text-shadow:
-    2px 2px 0 #cd2d6e, /* Pink-Magenta shadow */
-    2px -2px 0 #cb2d6e; /* Pink-Magenta on right */ 
+    3px 3px 0 #cd2d6e, /* Pink-Magenta shadow */
+    3px -3px 0 #cb2d6e; /* Pink-Magenta on right */ 
 }
 
 .Programming_Projects_Page {
@@ -47,12 +47,15 @@ a {
 /* Main content styling */
 .main_content {
     grid-area: main;
-    background-color: black; /* Color is just here so i can see what I'm coding*/
+    /* background-color: black; /* Color is just here so i can see what I'm coding*/
     padding: 20px;
     color: #06cc06;
     margin: 5px;
     margin-right: 20px;
     border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #FE8714;
 }
 
 .sidebar {
@@ -67,7 +70,27 @@ a {
 
 .sidebar_items {
     margin-top: auto;
-    font-size: 3.5vh;
+    font-size: 4.0vh;
     flex-shrink: 1;
+    font-family: 'Vaporwave', sans-serif;
     text-align: center;
+    color: #62cece;
+    text-shadow:
+    2px 2px 0 #cd2d6e, /* Pink-Magenta shadow */
+    2px -2px 0 #cb2d6e; /* Pink-Magenta on right */ 
+    text-decoration: none;
+
+}
+
+.sidebar_items a:hover {
+    font-size: 4.5vh;
+}
+
+.sidebar_items .GitHub_Icon {
+    width: 75px;
+    height: 75px;
+}
+.sidebar_items .GitHub_Icon:hover {
+    width: 85px;
+    height: 85px;
 }
