@@ -60,11 +60,10 @@ a {
     border-width: 10px;
     border-style: solid;
     border-color: #FE8714;
-    background-color: orange;
+    background-color: rgba(255,165,0, 0.7);
 }
 .main_content_items {
     display: grid;
-    
     grid-template-columns: repeat(1,1fr);
     overflow-y: auto;
     max-height:560px;
