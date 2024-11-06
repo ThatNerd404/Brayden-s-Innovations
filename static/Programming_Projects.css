@@ -9,6 +9,10 @@
     src: url("RocketRinder-yV5d.ttf");
 }
 
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica-BoldOblique.ttf');
+}
 body,html {
     background: url('Vaporwave_BG.gif') no-repeat center center fixed;
     background-size: cover;
@@ -56,8 +60,50 @@ a {
     border-width: 10px;
     border-style: solid;
     border-color: #FE8714;
+    background-color: orange;
+}
+.main_content_items {
+    display: grid;
+    
+    grid-template-columns: repeat(1,1fr);
+    overflow-y: auto;
+    max-height:560px;
 }
 
+.Project_Box {
+    display: grid;
+    
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 2.1fr 0.3fr 0.3fr;
+    grid-template-areas: 
+    "Image Image Image"
+    "Project_Title Project_Title Project_Title"
+    "Description Description Description";
+    align-items: center;
+    justify-items: center;
+    height: 75vh;
+    width: 100%;
+}
+
+.Project_Box .Screenshot {
+    grid-area: Image;
+    width: 50vh;
+    height: 50vh;
+}
+.Project_Box .Project_Title {
+    grid-area: Project_Title;
+    font-size: 5vh;
+    font-family: "Vaporwave", sans-serif;
+    color:#721c7a;
+    text-align: center;
+}
+
+.Project_Box .Project_Desc {
+    grid-area: Description;
+    font-size: 4vh;
+    font-family: "Helvetica", sans-serif;
+    color:#721c7a;
+}
 .sidebar {
     display: flex;  
     flex-direction: column;
