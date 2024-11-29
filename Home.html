@@ -12,18 +12,21 @@
     <title>Brayden's Innovations</title>
     <link rel="stylesheet" href="static/style.css">
     <link rel="icon" href="static/icons8-circled-b-50.png">
+    <script src="https://braydens-innovations.neocities.org/autoplay_enable.js"></script>
 
 </head>
 
 <body>
+    
     <div class="Home_Page">
         <header class="title">
             Brayden's Innovations
         </header>
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
 
             <div class="sidebar_items">
                 <a class= "sidebar_items" href="https://braydens-innovations.neocities.org/Home">Home<span id="Typing">_</span></a>
+                
             </div>
 
             <div class="sidebar_items">
@@ -47,7 +50,13 @@
             </div>
 
         </aside>
-
+        <audio id="hover-sound" src="static\mixkit-sci-fi-click-900.wav" preload="auto">
+        
+            Your browser does not support the audio element.
+          </audio>
+        
+        <script src="Sidebar_audio.js" defer></script>
+        
         <section class="main_content">
 
             <div class="main_content_items">

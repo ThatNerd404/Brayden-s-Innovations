@@ -23,6 +23,7 @@ body,html {
     width: 100%; 
     cursor: url('cur21.gif'), auto;
 }
+
 a {
     cursor: url("cur21.gif"), pointer;
 }
@@ -131,9 +132,9 @@ a {
     width: 200px;
     height: 26.67px;
 }
-.sidebar_items a:hover {
-    font-size: 4vh;
-}
+/*.sidebar_items a:hover {
+    
+}*/
 @keyframes Terminal {
     0%, 10%, 20%, 30%, 40%, 50% {
         opacity: 1;
