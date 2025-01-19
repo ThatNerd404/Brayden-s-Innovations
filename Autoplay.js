@@ -4,8 +4,8 @@ window.addEventListener('load', () => {
     document.addEventListener('click', () => {
       // We go through all the <audio autoplay> elements...
       for (const audio of document.querySelectorAll('[autoplay]')) {
-        audio.volume = .5 // We don't kill the user... (optional)
+        audio.volume = .3 // We don't kill the user... (optional)
         audio.play() // And finally bless their ears!
       }
-    }, { passive: true, once: true }) // `once` for making this only fire once.
+    }, { passive: true, once: false }) // `once` for making this only fire once.
   }, { passive: true }) // `passive` for some slight optimisation magic.
