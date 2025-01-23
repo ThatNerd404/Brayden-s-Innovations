@@ -1,18 +1,19 @@
 html,body {
-    background-color: black;
+    background-color: #041f11;
     margin: 0;
     height: 100%;
 }
 
-.image_container {
+.Start_Page_Container {
     display:flex;
     height: 100vh;
+    display: flex;  
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.image_container img {
-    max-width: 100%;
+img {
     height: auto;
-    display: block;
+    width: auto;
 }
